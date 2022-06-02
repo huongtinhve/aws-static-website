@@ -3,13 +3,9 @@
 ## v1.0.0
 
 ### Added or Changed
-- Added this changelog :)
-- Fixed typos in both templates
-- Back to top links
-- Added more "Built With" frameworks/libraries
-- Changed table of contents to start collapsed
-- Added checkboxes for major features on roadmap
+- Use this readme template for my project submission
+- Add new screenshot file to show files was uploaded in S3 bucket (file name: 'S3 files uploaded.png')
 
 ### Removed
 
-- Some packages/libraries from acknowledgements I no longer use
+- Some images and blank_readme.md I no longer use

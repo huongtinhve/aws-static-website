@@ -7,13 +7,10 @@ jobs:
     docker:
       - image: circleci/node:13.8.0
     steps:
-      - run: return 1
-
-  print_error:
-    docker:
-      - image: circleci/node:13.8.0
-    steps:
-      - run: echo "Hello Error!"
+      - run: exit 1
+      - run:
+          name: on error
+          command: echo "Hello Error!"
           when: on_fail
 
 
@@ -21,4 +18,3 @@ workflows:
   my_workflow:
     jobs:
       - step_failure
-      - print_error
